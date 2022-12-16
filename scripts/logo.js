@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     for (var i = 0; i < text.length; i++) {
         var new_id = 'logo_glyph_'+ i;
-        logo_text_elem.innerHTML += '<span class="logo_glyph" id="'+ new_id +'" style="font-size: 10em">'+ text.charAt(i) +'</span>';
+        logo_text_elem.innerHTML += '<span class="logo_glyph" id="'+ new_id +'">'+ text.charAt(i) +'</span><style> @media (min-width: 1200px){ .logo_glyph {font-size: 4.7vw;}} @media (min-width: 980px) and (max-width: 1199px) { .logo_glyph {font-size: 15vw;}} @media (min-width: 769px) and (max-width: 979px) { .logo_glyph {font-size: 15vw;}} @media (min-width: 640px) and (max-width: 768px) { .logo_glyph {font-size: 15vw;}} @media (max-width: 639px) { .logo_glyph {font-size: 15vw;}}';
         elements.push(new_id);
     }
 

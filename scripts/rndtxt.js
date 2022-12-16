@@ -13,5 +13,5 @@ function rndtxt() {
     b[10]='нужен отчёт';
     b[11]='у нас ничего не работает';
     var i=Math.floor(Math.random()*b.length);
-    document.write( b[i] );
+    document.getElementById('myLink').innerHTML = b[i];
 }

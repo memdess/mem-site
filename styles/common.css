@@ -2,7 +2,7 @@
 
 html, body {
     font-family: 'Montserrat', sans-serif;
-    
+
     width: 100%;
     height: 100%;
     
@@ -13,10 +13,15 @@ html, body {
 body {
     background: #000;
     color: #fff;
+    cursor: default;
 }
 
 body, a {
     color: #fff;
+}
+
+#myLink {
+    cursor: grab;
 }
 
 #body_wrapper {
