@@ -1,0 +1,9 @@
+User-agent: Yandex
+Allow: /
+Disallow: /videos
+User-agent: Googlebot
+Allow: /
+Disallow: /videos
+User-agent: *
+Disallow: /
+Sitemap: https://memdess.ru/sitemap.xml
