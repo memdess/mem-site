@@ -4,7 +4,7 @@ $(function(){
 	kkeys.push( e.keyCode );
     if ( kkeys.toString().indexOf( konami ) >= 0 ){
     	$(document).unbind('keydown',arguments.callee);
-    	alert('Ваня, иди нахуй');
+    	window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
   		}	
 	});	
 });
